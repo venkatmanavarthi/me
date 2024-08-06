@@ -6,7 +6,7 @@ function JobCard(props) {
             <div className="p-4 text-md font-medium rounded-t-xl text-red-500">
                 <h3>{props.job.company}</h3>
                 <h4>{props.job.title}</h4>
-                <h5 className="text-sm text-black text-right" >{props.job.from} - {props.job.to}</h5>
+                <h5 className="text-sm text-black text-right" >{props.job.from} - {props.job.to} <span title={ props.job.locationTitle}>{ props.job.location }</span></h5>
             </div>
             <div className="p-4 text-md font-normal">
                 { props.job.summary }
