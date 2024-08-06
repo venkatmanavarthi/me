@@ -1,9 +1,9 @@
-import Landing from './componenets/Landing/Landing'
+import Navigation from './componenets/Navigation'
 
 function App() {
   return (
     <>
-      <Landing />
+      <Navigation />
     </>
   )
 }
