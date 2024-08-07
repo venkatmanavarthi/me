@@ -4,6 +4,7 @@ import Experience from './componenets/Experience';
 import Projects from './componenets/Projects';
 import Footer from './componenets/Footer';
 import Skills from './componenets/Skills';
+import Education from './componenets/Education';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Experience />
       <Projects />
       <Skills />
+      <Education />
       <Footer />
     </>
   )
