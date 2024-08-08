@@ -9,7 +9,7 @@ function Skills() {
     const skills = data.skills.map((skill, i) => <li className="shadow-2xl hover:shadow p-2 bg-red-400 inline-block rounded mt-1" key={i}>{ skill }</li>)
 
     return (
-        <div className="p-4 mt-4 container mx-auto max-w-6xl">
+        <div id="skills" className="p-4 mt-4 container mx-auto max-w-6xl">
             <h1 className="text-center text-3xl font-semibold">Skills</h1>
             <ul className="mt-4 flex flex-wrap font-medium justify-center space-x-3 text-white">
                 {skills}

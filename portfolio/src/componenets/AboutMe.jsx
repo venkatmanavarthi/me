@@ -12,10 +12,10 @@ function AboutMe() {
     }
 
     return (
-            <div className="p-4 mt-14 container mx-auto flex flex-col justify-center items-center max-w-6xl">
-                <img className="rounded-full max-w-[200px] max-h-[200px]" src={data.about.pic} alt="Venkat Rao Manavarthi's Profile Pic" />
-                <p className="mt-4 text-justify">{ data.about.summary }</p>
-                <ul className="flex justify-center space-x-2">
+            <div id="about" className="p-4 mt-14 container mx-auto flex flex-col justify-center items-center max-w-5xl">
+                <img className="rounded-full max-w-[200px] max-h-[200px] shadow-xl" src={data.about.pic} alt="Venkat Rao Manavarthi's Profile Pic" />
+                <p className="p-4 mt-4 text-justify bg-white rounded-xl shadow-lg">Hello and welcome! I’m happy to have you here. <br/> { data.about.p1 } <br/><br/> { data.about.p3 }</p>
+                <ul className="mt-4 p-4 flex justify-center space-x-2 bg-white rounded-xl shadow-lg">
                     <li>
                         <a href={data.social.linkedin} target='_blank'>
                             <img className="w-10" src={linkedin} alt="" />

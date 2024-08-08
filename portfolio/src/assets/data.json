@@ -1,0 +1,124 @@
+{
+    "about": {
+        "firstname": "Venkat Rao",
+        "lastname": "Manavarthi",
+        "DOB": "01 January 2001",
+        "p1": "My name is Venkat Rao Manavarthi, and I am a passionate software engineer currently working at the National Institute of Standards and Technology. With a solid foundation in backend technologies, frontend, big data, cloud computing, and iOS development. I love turning ideas into functional applications.",
+        "p2": "",
+        "p3": "I invite you to explore my portfolio, here you will find a collection of my professional experience, projects, skills, education and achievements that reflect my dedication to continuous learning and innovation in the tech space. Thank you for visiting, and I look forward to connecting with you!",
+        "pic": "/avatar.png"
+    },
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/venkatrao-manavarthi/",
+        "github": "https://github.com/venkatmanavarthi",
+        "email": "manavarthivenkat@icloud.com",
+        "phone": "8165770765"
+    },
+    "experience": [
+        {
+            "company": "National Institute of Standards and Technology",
+            "title": "Software Engineer",
+            "from": "July 2024",
+            "to": "Present",
+            "summary": "Go, HTTP, Microservices, React.js, Python, Bash, Docker, gRPC",
+            "location": "🇺🇸",
+            "locationTitle": "Washington DC, United States",
+            "work": [
+                "Designing and developing quatum network manager microservices in go.",
+                "Developed scripts to automate testing and data collection scenarios on 5g testbed.",
+                "Developing QNM gui using go/fyne for desktop.",
+                "Implemented go-gorm ORM to optimize data fetching, manipulation, and database interactions, resulting in improved efficiency and performance."
+            ]
+        },
+        {
+            "company": "University of Missouri - Kansas City",
+            "title": "Software Engineer (Research Software)",
+            "summary": "",
+            "from": "June 2023",
+            "to": "June 2024",
+            "location": "🇺🇸",
+            "locationTitle": "Missouri, United States",
+            "work": [
+                "Led testbed cloud deployments for research.",
+                "Developed scripts to deploy simple 5g testbed on Google Cloud which reduced setup time by 80%.",
+                "Designed and implemented RESTful APIs using Java Spring Boot, ensuring robust, scalable, and efficient back-end services."
+        ]
+        },
+        {
+            "company": "Nagarro",
+            "title": "Software Engineer",
+            "summary": "",
+            "from": "January 2022",
+            "to": "July 2022",
+            "location": "🇮🇳",
+            "locationTitle": "India",
+            "work": [
+                "Created ETL (Extract Transform Load)/ ELT (Extract Load Transform) pipelines.",
+                "Migrated hadoop jobs to spark reducing processing time by 50%.",
+                "Reduced cloud storage cost by 25% converting large csv files into more storage optimized parquet file format."
+            ]
+        },
+        {
+            "company": "Zersey",
+            "title": "Software Engineer",
+            "summary": "",
+            "from": "October 2020",
+            "to": "January 2021",
+            "location": "🇮🇳",
+            "locationTitle": "India",
+            "work": [
+                "Restructured codebase by eliminating unnecessary code and adopting best design patterns, resulting in reduced bundle size and improved application launch rates.",
+                "Transformed a cluttered interface into a streamlined design, resulting in a 25% increase in user engagement and time spent on the platform.",
+                "Deployed APIs to AWS Lambda, leveraging API Gateway to manage and secure endpoints, improving scalability and reducing operational overhead."
+            ]
+        },
+        {
+            "company": "Beadcore Infotech",
+            "title": "Software Engineer",
+            "summary": "",
+            "from": "June 2020",
+            "to": "September 2020",
+            "location": "🇮🇳",
+            "locationTitle": "India",
+            "work": [
+                "Designed and implemented RESTful APIs using the FastAPI framework to ensure faster release cycle.",
+                "Developed a attendance management iOS app utilizing geo-referencing and facial recognition technologies to enhance accuracy and security in attendance tracking.",
+                "Employed Core ML to extract key portions of images for efficient transmission to the server for face recognition."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "LLM on Raspberry Pi",
+            "type": "Hobby Project",
+            "summary": "",
+            "work": [""]
+        }, 
+        {
+            "title": "Portfolio Project",
+            "type": "Hobby Project",
+            "summary": "",
+            "work": [""]
+        }, 
+        {
+            "title": "Cram.it.all",
+            "type": "Hobby Project",
+            "summary": "",
+            "work": [""]
+        }, 
+        {
+            "title": "Data Catalog",
+            "type": "Nagarro",
+            "summary": "",
+            "work": [""]
+        }
+    ],
+    "skills": [
+        "Python", "go", "Java", "Docker", "Amazon Web Services (AWS)", "Google Cloud", "Azure", "Kubernetes (k8s)", "Microservices", "FastAPI", "SQLAlchemy", "ORM", "Hibernate", "HTTP", "RESTful APIs", "ETL", "Glue", "PySpark", "Hadoop", "Spring", "Spring Boot", "JDBC", "AWS Lambda", "Raspberry Pi", "ESP32", "Bluetooth Low Energy",
+        "5G", "PostgreSQL", "MongoDB", "DynamoDB", "Cassandra", "Node.js", "React.js", "Tailwind CSS", "iOS", "HTML", "SQL", "Kafka", "SQS", "SNS", "Nginx", "Gorm", "Gorilla Mux"
+    ],
+    "education": [
+        {"school": "University of Missouri - Kansas City", "level": "Master's", "degree": "Computer Science", "from": "August 2022", "to": "June 2024"},
+        {"school": "Lovely Professional University", "level": "Bachelor's", "degree": "Computer Science", "from": "July 2018", "to": "May 2022"}
+    ]
+}

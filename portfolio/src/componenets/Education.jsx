@@ -6,8 +6,8 @@ function Education() {
     if (!data) {
         return <div>Loading....</div>
     }
-    const education = data.education.map((school, i) => <div key={i} className="shadow-2xl rounded-xl">
-        <div className="p-4 text-md font-medium rounded-t-xl text-red-500">
+    const education = data.education.map((school, i) => <div key={i} className="shadow-2xl rounded-lg">
+        <div id="education" className="p-4 text-md font-medium rounded-t-xl text-red-500">
             <h3>{school.school}</h3>
             <h4>{school.level}</h4>
             <h4>{school.degree}</h4>
